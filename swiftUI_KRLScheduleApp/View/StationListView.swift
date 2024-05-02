@@ -17,7 +17,12 @@ struct StationListView: View {
                 ForEach(stationListVM.stations.indices, id: \.self) { index in
                     let station = stationListVM.stations[index]
                     NavigationLink(destination: StationDetailView(id: station.id)) {
-                        StationListComponent(station: station)
+                        if stationListVM.isLoading {
+                            StationListComponent(station: station)
+                                .redacted(reason: .placeholder)
+                        } else {
+                            StationListComponent(station: station)
+                        }
                     }
                     .padding(.vertical, 16)
                     .padding(.horizontal, 26)
