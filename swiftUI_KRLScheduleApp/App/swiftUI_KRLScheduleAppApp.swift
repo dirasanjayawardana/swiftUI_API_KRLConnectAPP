@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftUI_KRLScheduleAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StationListView()
         }
     }
 }

@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		52AC77EB2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC77EA2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift */; };
-		52AC77ED2BE3387A00E15BFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC77EC2BE3387A00E15BFB /* ContentView.swift */; };
+		52AC77ED2BE3387A00E15BFB /* StationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC77EC2BE3387A00E15BFB /* StationListView.swift */; };
 		52AC77EF2BE3387B00E15BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AC77EE2BE3387B00E15BFB /* Assets.xcassets */; };
 		52AC77F22BE3387B00E15BFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AC77F12BE3387B00E15BFB /* Preview Assets.xcassets */; };
+		52AC77FD2BE33CCC00E15BFB /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC77FC2BE33CCC00E15BFB /* StationListModel.swift */; };
+		52AC78002BE33E6000E15BFB /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC77FF2BE33E6000E15BFB /* Constant.swift */; };
+		52AC78032BE33EFE00E15BFB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 52AC78022BE33EFE00E15BFB /* Alamofire */; };
+		52AC78052BE33EFE00E15BFB /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 52AC78042BE33EFE00E15BFB /* AlamofireDynamic */; };
+		52AC78082BE33F3A00E15BFB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78072BE33F3A00E15BFB /* APIService.swift */; };
+		52AC780B2BE3455500E15BFB /* StationListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC780A2BE3455500E15BFB /* StationListVM.swift */; };
+		52AC780E2BE34A3C00E15BFB /* StationListComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC780D2BE34A3C00E15BFB /* StationListComponent.swift */; };
+		52AC78112BE36BCD00E15BFB /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78102BE36BCD00E15BFB /* DateUtility.swift */; };
+		52AC78132BE372C200E15BFB /* StationDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78122BE372C200E15BFB /* StationDetailModel.swift */; };
+		52AC78152BE375DC00E15BFB /* StationDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78142BE375DC00E15BFB /* StationDetailVM.swift */; };
+		52AC78172BE3786600E15BFB /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78162BE3786600E15BFB /* StationDetailView.swift */; };
+		52AC78192BE37D2100E15BFB /* StationDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78182BE37D2100E15BFB /* StationDetailComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52AC77E72BE3387A00E15BFB /* swiftUI_KRLScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI_KRLScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AC77EA2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_KRLScheduleAppApp.swift; sourceTree = "<group>"; };
-		52AC77EC2BE3387A00E15BFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52AC77EC2BE3387A00E15BFB /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
 		52AC77EE2BE3387B00E15BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AC77F12BE3387B00E15BFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52AC77FC2BE33CCC00E15BFB /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
+		52AC77FF2BE33E6000E15BFB /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		52AC78072BE33F3A00E15BFB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		52AC780A2BE3455500E15BFB /* StationListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListVM.swift; sourceTree = "<group>"; };
+		52AC780D2BE34A3C00E15BFB /* StationListComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListComponent.swift; sourceTree = "<group>"; };
+		52AC78102BE36BCD00E15BFB /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		52AC78122BE372C200E15BFB /* StationDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailModel.swift; sourceTree = "<group>"; };
+		52AC78142BE375DC00E15BFB /* StationDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailVM.swift; sourceTree = "<group>"; };
+		52AC78162BE3786600E15BFB /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		52AC78182BE37D2100E15BFB /* StationDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AC78032BE33EFE00E15BFB /* Alamofire in Frameworks */,
+				52AC78052BE33EFE00E15BFB /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +75,13 @@
 		52AC77E92BE3387A00E15BFB /* swiftUI_KRLScheduleApp */ = {
 			isa = PBXGroup;
 			children = (
-				52AC77EA2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift */,
-				52AC77EC2BE3387A00E15BFB /* ContentView.swift */,
-				52AC77EE2BE3387B00E15BFB /* Assets.xcassets */,
+				52AC780F2BE36BA300E15BFB /* Utility */,
+				52AC78092BE3454300E15BFB /* ViewModel */,
+				52AC77FE2BE33E3300E15BFB /* Services */,
+				52AC77FB2BE33C9E00E15BFB /* Model */,
+				52AC77F82BE33BD800E15BFB /* App */,
+				52AC77F92BE33C7A00E15BFB /* View */,
+				52AC77FA2BE33C8300E15BFB /* Resources */,
 				52AC77F02BE3387B00E15BFB /* Preview Content */,
 			);
 			path = swiftUI_KRLScheduleApp;
@@ -65,6 +93,76 @@
 				52AC77F12BE3387B00E15BFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52AC77F82BE33BD800E15BFB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52AC77EA2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52AC77F92BE33C7A00E15BFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52AC780C2BE34A2300E15BFB /* Component */,
+				52AC77EC2BE3387A00E15BFB /* StationListView.swift */,
+				52AC78162BE3786600E15BFB /* StationDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52AC77FA2BE33C8300E15BFB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52AC77EE2BE3387B00E15BFB /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52AC77FB2BE33C9E00E15BFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52AC77FC2BE33CCC00E15BFB /* StationListModel.swift */,
+				52AC78122BE372C200E15BFB /* StationDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52AC77FE2BE33E3300E15BFB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52AC77FF2BE33E6000E15BFB /* Constant.swift */,
+				52AC78072BE33F3A00E15BFB /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52AC78092BE3454300E15BFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				52AC780A2BE3455500E15BFB /* StationListVM.swift */,
+				52AC78142BE375DC00E15BFB /* StationDetailVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52AC780C2BE34A2300E15BFB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				52AC780D2BE34A3C00E15BFB /* StationListComponent.swift */,
+				52AC78182BE37D2100E15BFB /* StationDetailComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		52AC780F2BE36BA300E15BFB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				52AC78102BE36BCD00E15BFB /* DateUtility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +181,10 @@
 			dependencies = (
 			);
 			name = swiftUI_KRLScheduleApp;
+			packageProductDependencies = (
+				52AC78022BE33EFE00E15BFB /* Alamofire */,
+				52AC78042BE33EFE00E15BFB /* AlamofireDynamic */,
+			);
 			productName = swiftUI_KRLScheduleApp;
 			productReference = 52AC77E72BE3387A00E15BFB /* swiftUI_KRLScheduleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +213,9 @@
 				Base,
 			);
 			mainGroup = 52AC77DE2BE3387A00E15BFB;
+			packageReferences = (
+				52AC78012BE33EFE00E15BFB /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 52AC77E82BE3387A00E15BFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +242,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AC77ED2BE3387A00E15BFB /* ContentView.swift in Sources */,
+				52AC780E2BE34A3C00E15BFB /* StationListComponent.swift in Sources */,
+				52AC77ED2BE3387A00E15BFB /* StationListView.swift in Sources */,
+				52AC78132BE372C200E15BFB /* StationDetailModel.swift in Sources */,
+				52AC78082BE33F3A00E15BFB /* APIService.swift in Sources */,
+				52AC78172BE3786600E15BFB /* StationDetailView.swift in Sources */,
+				52AC77FD2BE33CCC00E15BFB /* StationListModel.swift in Sources */,
+				52AC780B2BE3455500E15BFB /* StationListVM.swift in Sources */,
+				52AC78192BE37D2100E15BFB /* StationDetailComponent.swift in Sources */,
 				52AC77EB2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift in Sources */,
+				52AC78112BE36BCD00E15BFB /* DateUtility.swift in Sources */,
+				52AC78152BE375DC00E15BFB /* StationDetailVM.swift in Sources */,
+				52AC78002BE33E6000E15BFB /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +457,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52AC78012BE33EFE00E15BFB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52AC78022BE33EFE00E15BFB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52AC78012BE33EFE00E15BFB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		52AC78042BE33EFE00E15BFB /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52AC78012BE33EFE00E15BFB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52AC77DF2BE3387A00E15BFB /* Project object */;
 }
