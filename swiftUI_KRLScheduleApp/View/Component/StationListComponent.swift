@@ -12,8 +12,8 @@ struct StationListComponent: View {
     
     var body: some View {
         HStack {
-            VStack(alignment: .leading, spacing: 10) {
-                HStack(spacing: 12) {
+            VStack(alignment: .leading, spacing: 8) {
+                HStack(alignment: .top , spacing: 12) {
                     Image(systemName: "house.and.flag.fill")
                         .font(.title2)
                         .foregroundStyle(.green1)
@@ -23,7 +23,7 @@ struct StationListComponent: View {
                         .foregroundStyle(.blue1)
                 }
                 
-                HStack(spacing: 12) {
+                HStack(alignment: .top , spacing: 12) {
                     Image(systemName: "calendar.badge.clock")
                         .font(.title2)
                         .foregroundStyle(.green1)
@@ -32,8 +32,8 @@ struct StationListComponent: View {
                         .font(.system(.headline, design: .rounded))
                         .fontWeight(.bold)
                         .padding(.leading, 10)
+                        .foregroundStyle(.black)
                 }
-                .foregroundStyle(.secondary)
             }
             
             Spacer()

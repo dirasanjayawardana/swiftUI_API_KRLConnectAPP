@@ -19,7 +19,7 @@ struct StationDetailView: View {
                         let detail = stationDetailVM.detailStations[index]
                         StationDetailComponent(detailStation: detail)
                             .padding(.vertical, 16)
-                            .padding(.horizontal, 16)
+                            .padding(.horizontal, 12)
                             .background(index % 2 == 0 ? Color.card1 : Color.card2)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                     }

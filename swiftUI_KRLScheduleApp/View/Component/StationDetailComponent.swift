@@ -35,6 +35,7 @@ struct StationDetailComponent: View {
                             .resizable()
                             .frame(width: 20, height: 20)
                         Text("Destination : \(detailStation.destination.capitalized)")
+                            .lineLimit(1, reservesSpace: true)
                     }
                 }
                 
