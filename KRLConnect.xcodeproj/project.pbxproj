@@ -23,10 +23,14 @@
 		52AC78152BE375DC00E15BFB /* StationDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78142BE375DC00E15BFB /* StationDetailVM.swift */; };
 		52AC78172BE3786600E15BFB /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78162BE3786600E15BFB /* StationDetailView.swift */; };
 		52AC78192BE37D2100E15BFB /* StationDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC78182BE37D2100E15BFB /* StationDetailComponent.swift */; };
+		52C9917E2BE49643001B8A38 /* TrainDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9917D2BE49643001B8A38 /* TrainDetailModel.swift */; };
+		52C991802BE498E0001B8A38 /* TrainDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9917F2BE498E0001B8A38 /* TrainDetailVM.swift */; };
+		52C991822BE4993A001B8A38 /* TrainDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C991812BE4993A001B8A38 /* TrainDetailView.swift */; };
+		52C991842BE4999D001B8A38 /* TrainDetailComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C991832BE4999D001B8A38 /* TrainDetailComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52AC77E72BE3387A00E15BFB /* swiftUI_KRLScheduleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI_KRLScheduleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AC77E72BE3387A00E15BFB /* KRLConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRLConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AC77EA2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_KRLScheduleAppApp.swift; sourceTree = "<group>"; };
 		52AC77EC2BE3387A00E15BFB /* StationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListView.swift; sourceTree = "<group>"; };
 		52AC77EE2BE3387B00E15BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +45,10 @@
 		52AC78142BE375DC00E15BFB /* StationDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailVM.swift; sourceTree = "<group>"; };
 		52AC78162BE3786600E15BFB /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
 		52AC78182BE37D2100E15BFB /* StationDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailComponent.swift; sourceTree = "<group>"; };
+		52C9917D2BE49643001B8A38 /* TrainDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailModel.swift; sourceTree = "<group>"; };
+		52C9917F2BE498E0001B8A38 /* TrainDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailVM.swift; sourceTree = "<group>"; };
+		52C991812BE4993A001B8A38 /* TrainDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailView.swift; sourceTree = "<group>"; };
+		52C991832BE4999D001B8A38 /* TrainDetailComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +75,7 @@
 		52AC77E82BE3387A00E15BFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52AC77E72BE3387A00E15BFB /* swiftUI_KRLScheduleApp.app */,
+				52AC77E72BE3387A00E15BFB /* KRLConnect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +117,7 @@
 				52AC780C2BE34A2300E15BFB /* Component */,
 				52AC77EC2BE3387A00E15BFB /* StationListView.swift */,
 				52AC78162BE3786600E15BFB /* StationDetailView.swift */,
+				52C991812BE4993A001B8A38 /* TrainDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			children = (
 				52AC77FC2BE33CCC00E15BFB /* StationListModel.swift */,
 				52AC78122BE372C200E15BFB /* StationDetailModel.swift */,
+				52C9917D2BE49643001B8A38 /* TrainDetailModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,6 +154,7 @@
 			children = (
 				52AC780A2BE3455500E15BFB /* StationListVM.swift */,
 				52AC78142BE375DC00E15BFB /* StationDetailVM.swift */,
+				52C9917F2BE498E0001B8A38 /* TrainDetailVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -153,6 +164,7 @@
 			children = (
 				52AC780D2BE34A3C00E15BFB /* StationListComponent.swift */,
 				52AC78182BE37D2100E15BFB /* StationDetailComponent.swift */,
+				52C991832BE4999D001B8A38 /* TrainDetailComponent.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -168,9 +180,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52AC77E62BE3387A00E15BFB /* swiftUI_KRLScheduleApp */ = {
+		52AC77E62BE3387A00E15BFB /* KRLConnect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52AC77F52BE3387B00E15BFB /* Build configuration list for PBXNativeTarget "swiftUI_KRLScheduleApp" */;
+			buildConfigurationList = 52AC77F52BE3387B00E15BFB /* Build configuration list for PBXNativeTarget "KRLConnect" */;
 			buildPhases = (
 				52AC77E32BE3387A00E15BFB /* Sources */,
 				52AC77E42BE3387A00E15BFB /* Frameworks */,
@@ -180,13 +192,13 @@
 			);
 			dependencies = (
 			);
-			name = swiftUI_KRLScheduleApp;
+			name = KRLConnect;
 			packageProductDependencies = (
 				52AC78022BE33EFE00E15BFB /* Alamofire */,
 				52AC78042BE33EFE00E15BFB /* AlamofireDynamic */,
 			);
 			productName = swiftUI_KRLScheduleApp;
-			productReference = 52AC77E72BE3387A00E15BFB /* swiftUI_KRLScheduleApp.app */;
+			productReference = 52AC77E72BE3387A00E15BFB /* KRLConnect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52AC77E22BE3387A00E15BFB /* Build configuration list for PBXProject "swiftUI_KRLScheduleApp" */;
+			buildConfigurationList = 52AC77E22BE3387A00E15BFB /* Build configuration list for PBXProject "KRLConnect" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,7 +232,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52AC77E62BE3387A00E15BFB /* swiftUI_KRLScheduleApp */,
+				52AC77E62BE3387A00E15BFB /* KRLConnect */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +256,17 @@
 			files = (
 				52AC780E2BE34A3C00E15BFB /* StationListComponent.swift in Sources */,
 				52AC77ED2BE3387A00E15BFB /* StationListView.swift in Sources */,
+				52C9917E2BE49643001B8A38 /* TrainDetailModel.swift in Sources */,
 				52AC78132BE372C200E15BFB /* StationDetailModel.swift in Sources */,
+				52C991802BE498E0001B8A38 /* TrainDetailVM.swift in Sources */,
+				52C991822BE4993A001B8A38 /* TrainDetailView.swift in Sources */,
 				52AC78082BE33F3A00E15BFB /* APIService.swift in Sources */,
 				52AC78172BE3786600E15BFB /* StationDetailView.swift in Sources */,
 				52AC77FD2BE33CCC00E15BFB /* StationListModel.swift in Sources */,
 				52AC780B2BE3455500E15BFB /* StationListVM.swift in Sources */,
 				52AC78192BE37D2100E15BFB /* StationDetailComponent.swift in Sources */,
 				52AC77EB2BE3387A00E15BFB /* swiftUI_KRLScheduleAppApp.swift in Sources */,
+				52C991842BE4999D001B8A38 /* TrainDetailComponent.swift in Sources */,
 				52AC78112BE36BCD00E15BFB /* DateUtility.swift in Sources */,
 				52AC78152BE375DC00E15BFB /* StationDetailVM.swift in Sources */,
 				52AC78002BE33E6000E15BFB /* Constant.swift in Sources */,
@@ -438,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52AC77E22BE3387A00E15BFB /* Build configuration list for PBXProject "swiftUI_KRLScheduleApp" */ = {
+		52AC77E22BE3387A00E15BFB /* Build configuration list for PBXProject "KRLConnect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52AC77F32BE3387B00E15BFB /* Debug */,
@@ -447,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52AC77F52BE3387B00E15BFB /* Build configuration list for PBXNativeTarget "swiftUI_KRLScheduleApp" */ = {
+		52AC77F52BE3387B00E15BFB /* Build configuration list for PBXNativeTarget "KRLConnect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52AC77F62BE3387B00E15BFB /* Debug */,

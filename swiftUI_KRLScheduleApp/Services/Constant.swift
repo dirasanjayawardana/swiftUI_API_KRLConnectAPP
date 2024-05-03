@@ -10,4 +10,5 @@ import Foundation
 struct Constant {
     static let stationListUrl = "https://www.api.jadwal-krl.com/v1/station/"
     static let stationDetailUrl = "https://www.api.jadwal-krl.com/v1/schedule/"
+    static let trainDetailUrl = "https://www.api.jadwal-krl.com/v1/route/"
 }

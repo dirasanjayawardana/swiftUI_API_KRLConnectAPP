@@ -1,14 +1,14 @@
 //
-//  StationDetailComponent.swift
-//  swiftUI_KRLScheduleApp
+//  TrainDetailView.swift
+//  KRLConnect
 //
-//  Created by MACBOOK PRO on 02/05/24.
+//  Created by MACBOOK PRO on 03/05/24.
 //
 
 import SwiftUI
 
-struct StationDetailComponent: View {
-    let detailStation: DetailStation
+struct TrainDetailComponent: View {
+    let trainDetail: TrainDetail
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -16,9 +16,11 @@ struct StationDetailComponent: View {
                 Image(.train)
                     .resizable()
                     .frame(width: 32, height: 32)
-                Text(detailStation.line.capitalized)
+                Text(trainDetail.line.capitalized)
                     .font(.title3)
                     .fontWeight(.bold)
+                
+                
             }
             
             HStack {
@@ -27,14 +29,14 @@ struct StationDetailComponent: View {
                         Image(systemName: "map.fill")
                             .resizable()
                             .frame(width: 20, height: 20)
-                        Text("Route : \(detailStation.route.capitalized)")
+                        Text("Route : \(trainDetail.route.capitalized)")
                             .lineLimit(1, reservesSpace: true)
                     }
                     HStack(spacing: 12) {
                         Image(systemName: "mappin.and.ellipse")
                             .resizable()
                             .frame(width: 20, height: 20)
-                        Text("Destination : \(detailStation.destination.capitalized)")
+                        Text("Destination : \(trainDetail.destination.capitalized)")
                             .lineLimit(1, reservesSpace: true)
                     }
                 }
@@ -42,11 +44,11 @@ struct StationDetailComponent: View {
                 Spacer()
                 
                 VStack(alignment: .trailing, spacing: 8) {
-                    Text("\(detailStation.timeEstimated.prefix(5)) WIB")
+                    Text("\(trainDetail.timeEstimated.prefix(5)) WIB")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundStyle(.blue1)
                     //Text("-")
-                    Text("\(detailStation.destinationTime.prefix(5)) WIB")                        .fontWeight(.bold)
+                    Text("\(trainDetail.destinationTime.prefix(5)) WIB")                        .fontWeight(.bold)
                         .foregroundStyle(.green1)
                 }
             }
@@ -56,6 +58,6 @@ struct StationDetailComponent: View {
 }
 
 #Preview {
-    StationDetailComponent(detailStation: DetailStation.dummyData[0])
+    TrainDetailComponent(trainDetail: TrainDetail.dummyData[0])
         .padding()
 }
